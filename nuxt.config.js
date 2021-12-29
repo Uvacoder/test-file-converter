@@ -5,14 +5,6 @@ export default {
 	// Target: https://go.nuxtjs.dev/config-target
 	target: "server",
 
-	vue: {
-		config: {
-			productionTip: true,
-			devtools: true,
-			silent: true
-		}
-	},
-
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: "My Yaml GUI",
@@ -50,6 +42,10 @@ export default {
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss"
 	],
+
+	generate: {
+		dir: "dist"
+	},
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [],
