@@ -1,4 +1,8 @@
-# xList
+<p align="center"><img src="./static/favicon.svg" width="75" height="75" alt="Icon"/></p>
+
+<h3 align="center" style="font-size: 2rem">
+	<b>xList</b>
+</h3>
 
 A GUI for a personal YAML file containing media I like to track:
 
