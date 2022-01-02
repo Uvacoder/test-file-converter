@@ -1,4 +1,17 @@
-# my-yaml-gui
+# xList
+
+A GUI for a personal YAML file containing media I like to track:
+
+- Books
+- Games
+- Podcasts
+- Series / Movies
+
+## Screenshots
+
+![Screenshot 1](https://github.com/oneminch/deadlines/raw/main/assets/screenshot-1.png)
+
+![Screenshot 2](https://github.com/oneminch/deadlines/raw/main/assets/screenshot-2.png)
 
 ## Build Setup
 
