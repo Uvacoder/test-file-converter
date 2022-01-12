@@ -3,11 +3,11 @@
 		class="w-full min-h-16 flex justify-start items-center text-left px-6 py-4 border-b-2"
 	>
 		<a
-			:href="`https://reelgood.com/search?q=${encodeURIComponent(watchItem)}`"
+			:href="`https://trakt.tv/search?query=${encodeURIComponent(watchItem)}`"
 			target="_blank"
 			rel="noreferrer noopener"
-			title="Search Reelgood"
-			aria-label="Search Reelgood"
+			title="Search Trakt"
+			aria-label="Search Trakt"
 			class="flex justify-center items-center h-12 w-12 mr-6 bg-slate-300 text-slate-700 stroke-current p-2 rounded-full flex-shrink-0 focus-outline"
 		>
 			<svg
