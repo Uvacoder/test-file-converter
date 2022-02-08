@@ -3,7 +3,7 @@
 		class="w-full min-h-16 flex justify-start items-center text-left px-6 py-4 border-b-2"
 	>
 		<a
-			:href="`https://www.goodreads.com/search?q=${encodeURIComponent(
+			:href="`https://app.thestorygraph.com/browse?search_term=${encodeURIComponent(
 				readItem.title + ' ' + readItem.author
 			)}`"
 			target="_blank"
