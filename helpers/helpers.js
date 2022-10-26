@@ -1,13 +1,14 @@
 // Convert any word to titlecase
 const titleCase = (word = "") => {
-	return word.charAt(0).toUpperCase() + word.slice(1);
+	const i = word.indexOf("list");
+	return word.charAt(0).toUpperCase() + word.slice(1, i) + word.slice(i).charAt(0).toUpperCase() + word.slice(i+1)
 };
 
 // Dehyphenate a hyphenated word
 const dehyphenate = (hyphenatedWord) => {
 	return hyphenatedWord
 		.split("-")
-		.map((word) => titleCase(word))
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
 		.join(" ");
 };
 

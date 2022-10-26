@@ -26,7 +26,7 @@
 			</svg>
 		</a>
 
-		<p class="text-slate-600 text-lg font-bold">{{ watchItem }}</p>
+		<p class="text-slate-600 text-lg font-bold">{{ watchItem.title }}</p>
 	</div>
 </template>
 
@@ -35,8 +35,8 @@ export default {
 	name: "WatchItem",
 	props: {
 		watchItem: {
-			type: String,
-			default: ""
+			type: Object,
+			default: () => {}
 		}
 	}
 };

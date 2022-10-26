@@ -26,7 +26,7 @@
 			</svg>
 		</a>
 
-		<p class="text-slate-600 text-lg font-bold">{{ listenItem }}</p>
+		<p class="text-slate-600 text-lg font-bold">{{ listenItem.title }}</p>
 	</div>
 </template>
 
@@ -35,8 +35,8 @@ export default {
 	name: "ListenItem",
 	props: {
 		listenItem: {
-			type: String,
-			default: ""
+			type: Object,
+			default: () => {}
 		}
 	}
 };

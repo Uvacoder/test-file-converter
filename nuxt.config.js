@@ -22,7 +22,7 @@ export default {
 		],
 		link: [
       { rel: "preconnect", href:"https://fonts.bunny.net" },
-			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+			{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" },
 			{
 				href: "https://fonts.bunny.net/css?family=inter:400,700|space-grotesk:400,700&display=swap",
 				rel: "stylesheet"

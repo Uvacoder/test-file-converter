@@ -44,7 +44,7 @@
 			</svg>
 		</a>
 
-		<p class="text-slate-600 text-lg font-bold">{{ playItem }}</p>
+		<p class="text-slate-600 text-lg font-bold">{{ playItem.title }}</p>
 	</div>
 </template>
 
@@ -53,8 +53,8 @@ export default {
 	name: "PlayItem",
 	props: {
 		playItem: {
-			type: String,
-			default: ""
+			type: Object,
+			default: () => {}
 		}
 	}
 };
