@@ -1,6 +1,6 @@
 // Convert any word to titlecase
 const titleCase = (word = "") => {
-	const i = word.indexOf("list");
+	const i = word.indexOf("list", 1);
 	return word.charAt(0).toUpperCase() + word.slice(1, i) + word.slice(i).charAt(0).toUpperCase() + word.slice(i+1)
 };
 
