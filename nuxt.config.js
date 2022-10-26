@@ -4,6 +4,10 @@ export default {
 
 	// Target: https://go.nuxtjs.dev/config-target
 	target: "static",
+  publicPath: '/xlist/',
+  router: {
+    base: '/xlist/'
+  },
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
@@ -18,9 +22,10 @@ export default {
 			{ name: "format-detection", content: "telephone=no" }
 		],
 		link: [
+      { rel: "preconnect", href:"https://fonts.bunny.net" }
 			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
 			{
-				href: "https://fontlist.vercel.app/css?family=Inter:ital,wght@0,500;0,700;0,800;0,400&family=Space%20Grotesk:ital,wght@0,700;0,500;0,400&display=swap",
+				href: "https://fonts.bunny.net/css?family=inter:400,700|space-grotesk:400,700&display=swap",
 				rel: "stylesheet"
 			}
 		]
